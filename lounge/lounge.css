@@ -64,9 +64,7 @@ p.raspberry {
 
 	width: 200px;
 
-	padding-right: 20px;
-	padding-bottom: 20px;
-	padding-left: 20px;
+	padding: 0px 20px 20px 20px;
 
 	margin-left: 20px;
 
@@ -85,4 +83,11 @@ p.raspberry {
 
 #elixirs h3 {
 	color:#d12c47;
+}
+
+#footer {
+	font-size: 50%;
+	text-align: center;
+	line-height: normal;
+	margin-top: 30px;
 }
