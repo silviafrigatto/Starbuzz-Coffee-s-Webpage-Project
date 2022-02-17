@@ -33,20 +33,25 @@ p.raspberry {
 }
 
 #guarantee {
-	border-color: black;
 	border-width: 1px;
 	border-style: dashed;
 	border-color: white;
 	border-radius: 20px;
-	background-color: #a7cece;
+	
 	padding: 25px;
 	padding-left: 80px;
+
 	margin: 30px;
 	margin-right: 250px;
+
 	line-height: 1.9em;
+
 	font-style: italic;
-	color: #444444;
 	font-family: Georgia, Times New Roman, Times, serif;
+	
+	color: #444444;
+	
+	background-color: #a7cece;
 	background-image: url(images/background.gif);
 	background-repeat: no-repeat;
 	background-position: top left;
@@ -56,4 +61,28 @@ p.raspberry {
 	border-style: solid;
 	border-width: thin;
 	border-color:aquamarine;
+
+	width: 200px;
+
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+
+	margin-left: 20px;
+
+	text-align: center;
+	
+	line-height: 1;
+
+	background-image: url(images/cocktail.gif);
+	background-repeat: repeat-x;
+
+}
+
+#elixirs h2 {
+	color:black;
+}
+
+#elixirs h3 {
+	color:#d12c47;
 }
