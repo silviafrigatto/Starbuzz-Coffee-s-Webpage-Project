@@ -51,3 +51,9 @@ p.raspberry {
 	background-repeat: no-repeat;
 	background-position: top left;
 }
+
+#elixirs {
+	border-style: solid;
+	border-width: thin;
+	border-color:aquamarine;
+}
