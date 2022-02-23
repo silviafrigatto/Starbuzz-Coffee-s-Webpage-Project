@@ -75,6 +75,8 @@ p.raspberry {
 	background-image: url(images/cocktail.gif);
 	background-repeat: repeat-x;
 
+	float: right;
+
 }
 
 #elixirs h2 {
@@ -98,4 +100,17 @@ p.raspberry {
 
 .artist {
 	font-weight: bold;
+}
+
+#elixirs a:link {
+	color: #007e7e;
+}
+
+#elixirs a:visited {
+	color: #333333;
+}
+	
+#elixirs a:hover {
+	background: #f88396;
+	color: #0d5353;
 }
