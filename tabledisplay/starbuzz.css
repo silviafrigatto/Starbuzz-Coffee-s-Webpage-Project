@@ -11,40 +11,20 @@ body {
   height:           108px;
 }
 
-/*#main {
+#main {
+  display:          table-cell;
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
   padding:          15px;
-  margin:           0px 10px 10px 10px;
-  width:            420px;
-  float:            left;
-}*/
-
-#main {
-  display:          table-cell;
-  background:     #efe5d0 url(images/background.gif) top left;
-  font-size:        105%;
-  padding:          15px;
-  margin:           0px 10px 10px 10px;
-  }
-
-/*#sidebar {
-  background:       #efe5d0 url(images/background.gif) bottom right;
-  font-size:        105%;
-  padding:          15px;
-  margin:           0px 10px 10px 470px;
-}*/
+  vertical-align:   top;
+}
 
 #sidebar {
   display:          table-cell;
   background:       #efe5d0 url(images/background.gif) bottom right;
   font-size:        105%;
   padding:          15px;
-  margin:           0px 10px 10px 10px;
-  position:         absolute;
-  top:              128px;
-  right:            0px;
-  width:            280px;
+  vertical-align:   top;
 }
 
 #footer {
@@ -54,7 +34,6 @@ body {
   padding:          15px;
   margin:           10px;
   font-size:        90%;
-  clear:            left;
 }
 
 h1 {
@@ -80,20 +59,11 @@ a:visited {
   border-bottom:    thin dotted #675c47;
 }
 
-#allcontent {
-  width:            800px;
-  padding-top:      5px;
-  padding-bottom:   5px;
-  background-color: #675c47;
-  margin-left:      auto;
-  margin-right:     auto;
-}
-
-div#tableContainer {
+#tableContainer {
   display:          table;
+  border-spacing:   10px;
 }
 
-div#tableRow {
+#tableRow {
   display:          table-row;
 }
-
