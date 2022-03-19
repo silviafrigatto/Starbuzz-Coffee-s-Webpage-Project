@@ -11,6 +11,10 @@ body {
   height:           108px;
 }
 
+#headerSlogan {
+  float: right;
+}
+
 #drinks {
   display:          table-cell;
   background-color: #efe5d0;
