@@ -11,6 +11,12 @@ body {
   height:           108px;
 }
 
+#award {
+  position: absolute;
+  top: 30px;
+  left: 365px;
+  }
+
 #headerSlogan {
   float: right;
 }
@@ -47,6 +53,16 @@ body {
   margin:           0px 10px 10px 10px;
   font-size:        90%;
 }
+
+#coupon {
+  position: fixed;
+  top: 350px;
+  left: -90px;
+  }
+
+#coupon a, img {
+  border: none;
+  }
 
 h1 {
   font-size:        120%;
