@@ -21,7 +21,7 @@ header {
   float: right;
 }
 
-#drinks {
+section#drinks {
   display:          table-cell;
   background-color: #efe5d0;
   width:            20%;
@@ -29,7 +29,7 @@ header {
   vertical-align:   top;
 }
 
-#main {
+section#main {
   display:          table-cell;
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
